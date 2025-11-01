@@ -27,4 +27,4 @@ EXPOSE 8003
 
 # ===== Start command =====
 # 入口：house_price_api/app/main.py 且变量名为 app
-CMD ["uvicorn", "house_price_api.app.main:app", "--host", "0.0.0.0", "--port", "8003"]
+CMD ["uvicorn", "house_price_api.app.main:app", "--host", "0.0.0.0", "--port", "$PORT"]
