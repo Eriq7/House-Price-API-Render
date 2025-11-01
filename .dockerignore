@@ -1,0 +1,16 @@
+# 忽略缓存和环境目录
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# 忽略编辑器、日志、版本控制
+.vscode/
+.git/
+.gitignore
+
+# 忽略大文件和开发文件
+*.csv
+*.ipynb
