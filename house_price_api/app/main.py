@@ -93,10 +93,14 @@ def home():  # === NEW
     # 前端不强依赖具体特征；用户可直接粘贴 JSON 调用 /predict
     # 你也可以把下面的 placeholder JSON 替换成你实际的最小样例
     placeholder = {
-        "GrLivArea": 1710,
-        "OverallQual": 7
-        # ... 其余特征按需添加；也可以只粘贴你当前要测试的字段
-    }
+          "MSSubClass":"60","MSZoning":"RL","LotArea":2000,"Street":"Pave",
+  "LotShape":"Reg","LandContour":"Lvl","LotFrontage":65,
+  "Neighborhood":"CollgCr","YearBuilt":2003,"YearRemodAdd":2003,
+  "OverallQual":7,"OverallCond":5,"GrLivArea":1710,"TotalBsmtSF":856,
+  "FullBath":2,"HalfBath":1,"BedroomAbvGr":3,"KitchenAbvGr":1,
+  "TotRmsAbvGrd":7,"Fireplaces":0,"GarageCars":2,"GarageArea":999,
+  "YrSold":1987,"MoSold":"2"
+        }
     return f"""  <!-- === NEW: 简易前端 HTML 开始 === -->
 <!doctype html>
 <html>
