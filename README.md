@@ -89,5 +89,10 @@ Built a FastAPI microservice for model inference, fully Dockerized.
 
 Deployed to Render with live public endpoint and minimal HTML interface.
 
+🚀 How to Use
+Clone the repository:
+git clone https://github.com/Eriq7/ML-House-Price-API-Render
+cd ML-House-Price-API-Render
+
 
 
